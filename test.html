@@ -1,0 +1,44 @@
+To add a list of links for navigation inside the `header`, you can use semantic HTML elements such as `header`, `nav`, `ul`, `li`, and `a`. Here's how you can structure it:
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">  
+ 
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>CSS, HTML, and JavaScript</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="zap"></div>
+        </header>
+        <main>
+            <h2>In this task, I have managed to create:</h2>
+            <ul>          
+                <li>A snazzy website font using the <a href="https://fonts.google.com/specimen/Oswald">Oswald style</a></li>
+                <li>A zap animation powered by CSS at the top of two pages</li>
+                <li>A dark textured background using the <a href="https://www.toptal.com/designers/subtlepatterns/memphis-mini-dark-pattern/">Memphis Mini Dark Image</a></li>
+                <li>A bubble animation powered by JavaScript when you click anywhere on screen</li>
+            </ul>
+        </main>
+        <footer>
+            <p>ICE 1411/4111 Web Technologies 2024 - Lab 1</p>
+            <a href="https://bangor.ac.uk">Bangor University</a>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+This adds a `nav` element inside the `header`, containing an unordered list (`ul`) of navigation links (`li`), each linking to the respective pages: Home, Blog, About, and Contact.
